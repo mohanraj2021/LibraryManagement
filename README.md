@@ -18,7 +18,6 @@
 *
 
 #### Books Dispatch
-*
 
 ## Backend Technologies
 
