@@ -155,7 +155,46 @@ For updating the existing book in db.
 }
 ```
 
+## dotnet commands help
+
+### For creating the new project using dotnet cli
+```script
+dotnet new webapi -n LibraryManagement
+```
+
+### For running the project
+```script
+dotnet run
+```
+
+### For building the project
+```script
+dotnet build
+```
+
+### For adding new dependencies or package in the project
+```script
+dotnet add package mongocsharpdriver
+dotnet add package Newtonsoft.Json
+```
+
+### For starting the mongodb server
+```script
+mongod
+```
+
+
+## Git Commands
+```script
+git --bare init
+git remote add origin https://github.com/mohanraj2021/LibraryManagement.git
+```
+
 ## References
 
 * http://www.dotnetcurry.com/aspnet-mvc/1267/using-mongodb-nosql-database-with-aspnet-webapi-core
 * 
+
+
+
+
