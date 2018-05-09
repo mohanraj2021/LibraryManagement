@@ -15,7 +15,6 @@
 #### Books Management Module
 * Book Creation Form
 * Books List with Edit and Delete Option
-*
 
 #### Books Dispatch
 
