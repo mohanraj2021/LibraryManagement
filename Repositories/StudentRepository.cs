@@ -21,19 +21,19 @@ namespace LibraryManagement.Repositories
 
         public IEnumerable<Student> GetStudent()
         {
-            return _db.GetCollection<Student>("Books").FindAll();
+            return _db.GetCollection<Student>("Student").FindAll();
         }
 
         public Student GetBook(ObjectId id)
         {
             var res = Query<Student>.EQ(p => p.Id, id);
-            return _db.GetCollection<Student>("Books").FindOne(res);
+            return _db.GetCollection<Student>("Student").FindOne(res);
         }
 
-        public Student Create(Student book)
+        public Student Create(Student student)
         {
-            _db.GetCollection<Student>("Books").Save(book);
-            return book;
+            _db.GetCollection<Student>("Student").Save(student);
+            return student;
         }
 
         // public void Update(ObjectId id,Product p)
